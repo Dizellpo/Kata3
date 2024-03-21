@@ -232,17 +232,7 @@ label {
 .content-image__image {
   width: 100%;
 }
-.main-header__label {
-  min-width: 140px;
-  font-family: "TT Lakes Medium";
-  color: #1b1c21;
-  font-weight: 500;
-  font-size: 1rem;
-  cursor: default;
-  align-self: flex-end;
-  position: relative;
-  padding-bottom: 12px;
-}
+
 .main-header__repair-button {
   background-image: url("img\ic_repair.svg");
   margin-right: 2vw;
@@ -290,9 +280,7 @@ label {
   .profile__button {
     display: block;
   }
-  label {
-    display: none;
-  }
+
   .main-header__repair-button,
   .main-header__checkstatus-button {
     display: none;
@@ -357,9 +345,30 @@ label {
   .expand__button {
     padding-left: 7vw;
   }
-  label,
-  .main-header__repair-button,
+  .main-header__repair-button {
+  background-image: url("img/ic_repair.svg");
+  font-family: "TT Lakes Medium";
+  margin-right: 7vw;
+  white-space: nowrap;
+      padding-right: 70px;
+      background-repeat: no-repeat;
+   
+  position: relative;
+  width: 40px;
+  height: 40px;
+ 
+  display: block;
+}
   .main-header__checkstatus-button {
-    display: block;
-  }
+  background-image: url("img/ic_checkstatus.svg");
+  font-family: "TT Lakes Medium";
+  white-space: nowrap;
+  margin-right: 1vw;
+      padding-right: 45px;
+      background-repeat: no-repeat;
+  position: relative;
+  width: 40px;
+  height: 40px;
+  display: block;
+    }
 }
