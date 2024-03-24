@@ -346,13 +346,13 @@
  .main-header__repair-button {
   background-image: url("img/ic_repair.svg");
   font-family: "TT Lakes Medium";
-  margin-right: 1.5vw;
+  margin-right: 1vw;
   white-space: nowrap;
-  padding-right: 7vw;   
+  padding-right: 5vw;   
   background-repeat: no-repeat;
   background-position: bottom right;
   flex-direction: row;
-  width: 40px;
+  width: 115px;
   height: 40px;
   display: flex;
   align-items: center; 
@@ -362,12 +362,12 @@
   background-image: url("img/ic_checkstatus.svg");
   font-family: "TT Lakes Medium";
   white-space: nowrap;
-  margin-right: 1.5vw;
+  margin-right: 1vw;
   background-position: bottom right;
-  padding-right: 7vw;
+  padding-right: 5vw;
   background-repeat: no-repeat;
   flex-direction: row;
-  width: 40px;
+  width: 115px;
   height: 40px;
   display: flex;
   align-items: center;    
