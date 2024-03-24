@@ -348,11 +348,11 @@
   font-family: "TT Lakes Medium";
   margin-right: 1vw;
   white-space: nowrap;
-  padding-right: 7vw;   
+  padding-right: 10vw;   
   background-repeat: no-repeat;
   background-position: bottom right;
   flex-direction: row;
-  width: 200px;
+  width: 250px;
   height: 40px;
   display: flex;
   align-items: center; 
@@ -364,10 +364,10 @@
   white-space: nowrap;
   margin-right: 1vw;
   background-position: bottom right;
-  padding-right: 7vw;
+  padding-right: 10vw;
   background-repeat: no-repeat;
   flex-direction: row;
-  width: 200px;
+  width: 250px;
   height: 40px;
   display: flex;
   align-items: center;    
