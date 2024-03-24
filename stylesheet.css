@@ -352,7 +352,7 @@
   background-repeat: no-repeat;
   background-position: bottom right;
   flex-direction: row;
-  width: 140px;
+  width: 180px;
   height: 40px;
   display: flex;
   align-items: center; 
@@ -367,7 +367,7 @@
   padding-right: 5vw;
   background-repeat: no-repeat;
   flex-direction: row;
-  width: 140px;
+  width: 180px;
   height: 40px;
   display: flex;
   align-items: center;    
