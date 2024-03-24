@@ -150,9 +150,7 @@
   position: absolute;
   left: 0;
 }
-label {
-  display: none;
-}
+
 .nav {
   position: relative;
   width: 100%;
