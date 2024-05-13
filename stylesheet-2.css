@@ -146,13 +146,13 @@ a:hover {
     justify-content: flex-start;
 }
 
-.call__button {
-    display: inline-block;
+.call-button__button {
+    display: block;
     background-repeat: no-repeat;
-
     width: 40px;
     height: 40px;
     background-image: url("img/ic_call.svg");
+
 }
 
 .call__button:hover {
@@ -160,12 +160,13 @@ a:hover {
     transition-duration: 0.7s;
 }
 
-.chat__button {
+.chat-button__button {
     display: inline-block;
     background-repeat: no-repeat;
     width: 40px;
     height: 40px;
     background-image: url("img/ic_chat.svg");
+    
 }
 
 .chat__button:hover {
@@ -173,7 +174,7 @@ a:hover {
     transition-duration: 0.7s;
 }
 
-.profile__button {
+.profile-button__button {
     display: inline-block;
     background-repeat: no-repeat;
     width: 40px;
