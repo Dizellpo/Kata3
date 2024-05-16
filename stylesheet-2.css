@@ -97,7 +97,7 @@
     list-style: none;
 }
 
-a {
+.menu-button {
     font-family: "TT Lakes Regular";
     text-decoration: none;
     color: rgb(27, 28, 33);
@@ -108,7 +108,7 @@ a {
     text-align: left;
 }
 
-a:hover {
+.menu-button:hover {
     color: rgb(126, 126, 130);
     transition-duration: 0.7s;
 }
@@ -140,13 +140,13 @@ a:hover {
 
 .footer__buttons {
     display: flex;
-
-    width: 196px;
+    width: 155px;
     height: 55px;
     justify-content: flex-start;
+
 }
 
-.call-button__button {
+.call__button {
     display: block;
     background-repeat: no-repeat;
     width: 40px;
@@ -160,7 +160,7 @@ a:hover {
     transition-duration: 0.7s;
 }
 
-.chat-button__button {
+.chat__button {
     display: inline-block;
     background-repeat: no-repeat;
     width: 40px;
@@ -174,7 +174,7 @@ a:hover {
     transition-duration: 0.7s;
 }
 
-.profile-button__button {
+.profile__button {
     display: inline-block;
     background-repeat: no-repeat;
     width: 40px;
